@@ -1,0 +1,71 @@
+
+
+.jumbotron {
+	height: 350px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.header {
+	text-align: center;
+
+
+}
+
+.header h1 {
+	font-family: 'Helvetica Neue';
+	font-size: 70px;
+/*	text-align: center; */
+	padding-bottom: 10px;
+	border-bottom: 1px solid black; 
+}
+
+.header nav {
+
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+
+.personal-image img {
+	border: 2px solid black;
+	float: left;
+}
+
+.about-title, .experience-title, .projects-title {
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;	
+}
+
+.about-container, .experience-container, .projects-container {
+/*	border-top: 1px solid black; */
+	margin-top: 65px;
+}
+
+.about-section, .experience-section, .projects-section {
+	margin-bottom: 100px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+.exp-row {
+	margin-bottom: 25px;
+}
+
+
