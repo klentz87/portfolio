@@ -1,9 +1,16 @@
+footer {
+	background-color: #6351ce; 
+}
 
+.top-links {
+	color: white;
+}
 
 .jumbotron {
-	height: 350px;
+	height: 300px;
 	display: flex;
 	justify-content: center;
+	background-color: #171717;
 }
 
 
@@ -11,15 +18,15 @@
 .header {
 	text-align: center;
 
-
 }
 
 .header h1 {
+	color: floralwhite;
 	font-family: 'Helvetica Neue';
 	font-size: 70px;
 /*	text-align: center; */
 	padding-bottom: 10px;
-	border-bottom: 1px solid black; 
+	border-bottom: 1px solid white; 
 }
 
 .header nav {
@@ -46,17 +53,17 @@ h2 {
 	float: left;
 }
 
-.about-title, .experience-title, .projects-title {
+.about-title, .experience-title, .projects-title, .education-title {
 	padding-bottom: 10px;
 	border-bottom: 1px solid black;	
 }
 
-.about-container, .experience-container, .projects-container {
+.about-container, .experience-container, .projects-container, .education-container {
 /*	border-top: 1px solid black; */
 	margin-top: 65px;
 }
 
-.about-section, .experience-section, .projects-section {
+.about-section, .experience-section, .projects-section, .education-section {
 	margin-bottom: 100px;
 }
 
@@ -68,4 +75,15 @@ h4 {
 	margin-bottom: 25px;
 }
 
+.fa {
+	font-size: 30px;
+}
+
+i {
+	color: black;
+}
+
+i:hover {
+	color: white;
+}
 

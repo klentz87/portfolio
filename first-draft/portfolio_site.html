@@ -2,6 +2,7 @@
 <html lang='zxx'>
 <head>
 	<title>Kris Lentz</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" type="image/png" href="favicon.ico"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="main.css">
@@ -15,10 +16,11 @@
 				
 				<nav>
 					<ul>
-						<li><a href='#about'>About</a></li>
-						<li><a href='#experience'>Experience</a></li>
-						<li><a href='#projects'>Projects</a></li>
-						<li><a href='#'>Contact</a></li>
+						<li id="about-link"><a href='#' class="top-links">About</a></li>
+						<li><a href='#' class="top-links">Education</a></li>
+						<li><a href='#' class="top-links">Experience</a></li>
+						<li><a href='#' class="top-links">Projects</a></li>
+						<li><a href='#' class="top-links">Contact</a></li>
 					</ul>
 				</nav>
 			
@@ -54,16 +56,16 @@
 		</div> <!-- div entire container for about-section -->	
 	</section>
 
-	<section id='experience'>
-		<div class='container experience-section'>
+	<section id='education'>
+		<div class='container education-section'>
 			
-			<div class='container experience-title'>
+			<div class='container education-title'>
 				<div class="row justify-content-center">
-					<h2>Experience</h2>
+					<h2>Education</h2>
 				</div>
 			</div> <!-- div experience-title -->	
 
-			<div class='container experience-container'>
+			<div class='container education-container'>
 				
 				<div class='row justify-content-center exp-row'>
 					<div class='col-md-4 left-column'>
@@ -114,6 +116,23 @@
 					</div>
 				</div> <!-- row -->
 
+					
+			</div> <!-- row experience-container --> 
+		</div>
+	</section>
+
+<!-- -->
+
+	<section id='experience'>
+		<div class='container experience-section'>
+			
+			<div class='container experience-title'>
+				<div class="row justify-content-center">
+					<h2>Experience</h2>
+				</div>
+			</div> <!-- div experience-title -->	
+
+			<div class='container experience-container'>
 				<div class='row justify-content-center exp-row'>
 					<div class='col-md-4 left-column'>
 						<h3>KRTU 91.7 FM</h3>
@@ -148,6 +167,8 @@
 			</div> <!-- row experience-container --> 
 		</div>
 	</section>
+<!-- -->
+
 
 	<section id='projects'>
 		<div class='container projects-section'>
@@ -193,10 +214,44 @@
 		</div> 	<!-- div projects-section -->
 	</section>
 
-	<section>
+	<section id='footer'>
+		<footer class="page-footer font-small unique-color-dark pt-0">
+
+		    
+		        <div class="container">
+		            <!--Grid row-->
+		            <div class="row py-4 d-flex align-items-center">
+
+		                <!--Grid column-->
+		                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+		                    <h6 class="mb-0 white-text">Email at </h6>
+		                </div>
+		                <!--Grid column-->
+
+		                <!--Grid column-->
+		                <div class="col-md-6 col-lg-7 text-center text-md-right">
+		                    <!--Facebook-->
+
 		
+		                    <!--Linkedin-->
+		                    <a href="https://www.linkedin.com/in/kris-lentz/" class="li-ic" >
+		                        <i class="fa fa-linkedin white-text mr-lg-4"> </i>
+		                    </a>
+		                 
+		                    <a class="git-ic" href='https://github.com/klentz87'>
+		                        <i class="fa fa-github white-text mr-lg-4"> </i>
+		                    </a>
+		                </div>
+		                <!--Grid column-->
+
+		            </div>
+		            <!--Grid row-->
+		        </div>
+	
+		</footer> 
 	</section>
 
-
+	<script src='jquery-3.3.1.min.js'></script>
+  	<script src='main.js'></script>
 </body>
 </html>

@@ -1,0 +1,68 @@
+ul {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 0px 10px 0px;
+	border-bottom: 1px solid black; 
+}
+
+footer {
+	background-color: #333333;
+	border-top: 1px black solid;
+	margin-top: 40px;
+	height: 100%;
+
+
+}
+
+li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+a {
+	color: black;
+}
+
+
+img {
+	border: 1px solid black;
+}
+
+h6 {
+	color: white;
+}
+
+.header {
+	text-align: center;
+	background-color: ;
+}
+
+.title {
+	margin-top: 1.5em;
+}
+
+.content {
+	margin-top: 2em;
+}
+
+.header h1 {
+	font-family: "Special Elite";
+	font-size: 70px;
+	padding-bottom: 3px;
+
+}
+
+.title h2 {
+	font-size: 40px;
+}
+
+.fa {
+	font-size: 2em;
+	margin-left: 10px;
+	color: white; 
+}
+
+.fa:hover, .fa:focus {
+	color: #d3d3d3; 
+	text-decoration:none!important
+}
