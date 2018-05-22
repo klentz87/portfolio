@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang='EN'>
 <head>
-	<title>SITE 2</title>
+	<title>Kris Lentz</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" type="image/png" href="./assets/favicon.ico"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="main2.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
+
+	<div id="everything">
 		<section class='section-header'>		
 			<div class='header'> 		
 				<h1>Kris Lentz</h1>				
 				<!--<nav>-->
 					<ul>
-						<li><a href='#' class="top-links">About</a></li>
-						<li><a href='#' class="top-links">Education</a></li>
-						<li><a href='#' class="top-links">Experience</a></li>
-						<li><a href='#' class="top-links">Projects</a></li>
-						<li><a href='#footer'>Contact</a></li>
+						<li><a class="top-links" href='#'>About</a></li>
+						<li><a class="top-links" href='#'>Education</a></li>
+						<li><a class="top-links" href='#'>Experience</a></li>
+						<li><a class="top-links" href="#">Projects</a></li>
+						<li><a class="top-links" href='#footer'>Contact</a></li>
 						</ul>
 				<!--</nav>-->			
 			</div> <!-- header -->
@@ -33,7 +36,7 @@
 				</div>
 			</div>
 			<div class='row'>
-				<div class='content col-md-6'>
+				<div class='content col-lg-6'>
 					<p>
 						Just beginning my foray into web development. First experience with coding started in early 2017 with HTML/CSS, and later, started learning programming logic via Ruby. While still relatively new to web development, I’m adept at incorporating previous experiences into new fields: I have experience with both writing and print design from a series of punk rock fanzines I’ve put out over the past 15 years. I also have three years of experience in media through KRTU-FM 91.7: as a Student Production Manager and a Student Music Director, where I communicated with record promoters and donors, and worked with a team to increase audience share.
 					</p>
@@ -41,13 +44,13 @@
 						Currently proficient in HTML/CSS, Bootstrap, JavaScript, Ruby, and Ruby on Rails. 	
 					</p>
 				</div>
-				<div class='col-md-6'>
+				<div class='col-lg-6'>
 					<img src='./assets/milhouse.jpg' class='rounded-circle' alt='picture of Kris'>	
 				</div>
 			</div> <!--row-->	
 		</section>
 
-		<section class='display' id='education'>
+		<section class='hidden' id='education'>
 			<div class="row justify-content-center">
 				<div class='title'>
 					<h2>Education</h2>
@@ -92,7 +95,7 @@
 			</div><!--content-->
 		</section>
 
-		<section class='display' id='experience'>
+		<section class='hidden' id='experience'>
 			<div class="row justify-content-center">
 				<div class='title'>	
 					<h2>Experience</h2>
@@ -128,7 +131,7 @@
 			</div><!--content-->	
 		</section>
 
-		<section class='display' id='projects'>
+		<section class='hidden' id='projects'>
 			<div class="row justify-content-center">
 				<div class='title'>
 					<h2>Projects</h2>
@@ -180,6 +183,7 @@
 		
 			</footer> 
 		</section>
+	</div>
 
 
 	<script src='./scripts/jquery-3.3.1.min.js'></script>

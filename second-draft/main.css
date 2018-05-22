@@ -1,3 +1,8 @@
+#everything {
+	position: relative;
+	min-height: 100vh;
+}
+
 body {
 	overflow-x: hidden;
 }
@@ -5,10 +10,15 @@ body {
 footer {
 	background-color: #333333;
 	border-top: 1px black solid;
-	position: relative; 
+	position: absolute; 
 	width: 100%;
 	height: 80px;
+	bottom: 0;
+	left: 0;
+}
 
+img {
+	border: solid 2px black;
 }
 
 ul {
@@ -25,33 +35,45 @@ li {
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 3rem;
 }
 
 h6 {
 	color: white;
 }
 
+a:hover {
+ cursor:pointer;
+}
+
 .wrapper {
 	overflow-x: hidden;
-	height: 580px; 
+	height: 580px;
 	white-space: nowrap;
 	margin: 0 auto;
+	padding-bottom: 80px;
+/*	width: 100%!important; */
 }
 
 
 .display {
-	margin-top: 20px;
+/*	margin-top: 20px; */
 	width: 800px;
-	display: inline-block; 
+	display: inline-block;
 	white-space: normal;
 	vertical-align: top;
 	position: absolute;
-    top: 350px;  /* position the top  edge of the element at the middle of the parent */
-    left: 145%; /* position the left edge of the element at the middle of the parent */
-    transform: translate(-50%, -50%); 
+	top: 22rem;  /* position the top  edge of the element at the middle of the parent */
+    left: 220%; /* position the left edge of the element at the middle of the parent */
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); 
     font-family: "Helvetica Neue";
 
+}
+
+.hidden {
+	display: none;
 }
 
 /*
@@ -61,15 +83,19 @@ h6 {
 }
 */
 
+.header {
+	margin-top: 2rem;
+	text-align: center;
+/*	background-color: #FFFFF5; */
+}
+
+.top-links {
+	color: black;
+}
+
 #about {
 	left: 50%;
 	vertical-align: top;
-}
-
-
-.header {
-	text-align: center;
-	background-color: ;
 }
 
 .fa {
@@ -80,12 +106,104 @@ h6 {
 
 .fa:hover, .fa:focus {
 	color: #d3d3d3; 
-	text-decoration:none!important
+	text-decoration:none!important 
 }
 
 
 
 
+
+
+@media only screen and (max-width: 991px) {
+	img {
+		margin-top: 1rem;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 50%;
+		display: block;
+
+	}
+
+	.wrapper {
+		height: 810px;
+	}
+
+	.display {
+		margin-top: 7rem;
+	}
+
+	footer {
+		height: 130px;
+	}
+}
+
+@media only screen and (orientation:landscape) {
+	.display {
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+	ul {
+		width: 300px;
+	}
+
+	.wrapper {
+		height: 1050px;
+	}
+
+	.display {
+		width: 250px;
+		top: 29rem;
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+}	
+
+@media only screen and (min-device-width: 500px) {
+	.display {
+		width: 580px;
+	}
+}
+
+@media only screen and (min-device-width: 768px){
+	.wrapper {
+		width: 500px;
+	}
+
+	.display {
+		width: 600px;
+	}
+}
+
+@media only screen and (min-device-width: 1024px) {
+	p {
+		font-size: 1.2rem;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	h2 {
+		font-size: 3rem;
+	}
+
+	li {
+		font-size: 1.5rem;
+	}
+
+	.title {
+		margin-bottom: 0.5rem;
+	}
+
+	.display {
+		width: 860px;
+		top: 40rem;
+	}
+}
 
 
 
