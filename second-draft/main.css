@@ -38,6 +38,10 @@ h1 {
 	font-size: 3rem;
 }
 
+h2 {
+	font-size: 2.4rem;
+}
+
 h6 {
 	color: white;
 }
@@ -48,17 +52,21 @@ a:hover {
 
 .wrapper {
 	overflow-x: hidden;
-	height: 580px;
+	height: 640px;
 	white-space: nowrap;
 	margin: 0 auto;
 	padding-bottom: 80px;
 /*	width: 100%!important; */
 }
 
+.title {
+	margin-bottom: 0.5rem;
+}
+
 
 .display {
 /*	margin-top: 20px; */
-	width: 800px;
+	width: 900px;
 	display: inline-block;
 	white-space: normal;
 	vertical-align: top;
@@ -109,12 +117,9 @@ a:hover {
 	text-decoration:none!important 
 }
 
+/* mobile in portrait orientation */
 
-
-
-
-
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 	img {
 		margin-top: 1rem;
 		margin-left: auto;
@@ -126,11 +131,13 @@ a:hover {
 	}
 
 	.wrapper {
-		height: 810px;
+		height: 870px;
 	}
 
 	.display {
-		margin-top: 7rem;
+		margin-top: 1.5rem;
+		top: 28rem;
+		width: 650px;
 	}
 
 	footer {
@@ -138,12 +145,67 @@ a:hover {
 	}
 }
 
-@media only screen and (orientation:landscape) {
-	.display {
-		width: 500px;
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+	img {
+		margin-top: 1rem;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 50%;
+		display: block;
+
 	}
+
+	.wrapper {
+		height: 870px;
+	}
+
+	.display {
+		margin-top: 2.5rem;
+		top: 28rem;
+		width: 550px;
+	}
+
+	footer {
+		height: 130px;
+	}	
 }
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	footer {
+		height: 130px;
+	}
+
+	ul {
+		width: 300px;
+	}
+
+	img {
+		margin-top: 1rem;
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		width: 75%;
+		display: block;
+
+	}
+
+	.wrapper {
+		height: 1070px;
+	}
+
+	.display {
+		width: 250px;
+		top: 38rem;
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+
+
+}
+
+
+/*
 @media only screen and (max-width: 500px) {
 
 	ul {
@@ -151,22 +213,21 @@ a:hover {
 	}
 
 	.wrapper {
-		height: 1050px;
+		height: 2000px;
 	}
 
 	.display {
-		width: 250px;
-		top: 29rem;
+		width: 200px;
+		top: 32rem;
 		margin-left: 3px;
 		margin-right: 3px;
 	}
 }	
+*/
 
-@media only screen and (min-device-width: 500px) {
-	.display {
-		width: 580px;
-	}
-}
+
+
+/*
 
 @media only screen and (min-device-width: 768px){
 	.wrapper {
@@ -177,6 +238,43 @@ a:hover {
 		width: 600px;
 	}
 }
+
+*/
+
+
+
+/* mobile with landscape orientation */
+
+/*
+
+@media only screen and (orientation:landscape) {
+	.display {
+		width: 500px;
+	}
+}
+
+@media only screen and (min-device-width: 500px) {
+	.display {
+		width: 580px;
+	}
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 @media only screen and (min-device-width: 1024px) {
 	p {
@@ -204,6 +302,8 @@ a:hover {
 		top: 40rem;
 	}
 }
+
+*/
 
 
 
