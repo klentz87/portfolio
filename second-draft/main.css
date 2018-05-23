@@ -32,6 +32,7 @@ ul {
 li {
 	display: inline-block;
 	margin: 0px 10px;
+	font-size: 1.05rem;
 }
 
 h1 {
@@ -47,12 +48,12 @@ h6 {
 }
 
 a:hover {
- cursor:pointer;
+ cursor: pointer;
 }
 
 .wrapper {
 	overflow-x: hidden;
-	height: 640px;
+	height: 620px;
 	white-space: nowrap;
 	margin: 0 auto;
 	padding-bottom: 80px;
@@ -71,7 +72,7 @@ a:hover {
 	white-space: normal;
 	vertical-align: top;
 	position: absolute;
-	top: 22rem;  /* position the top  edge of the element at the middle of the parent */
+	top: 23rem;  /* position the top  edge of the element at the middle of the parent */
     left: 220%; /* position the left edge of the element at the middle of the parent */
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -117,7 +118,15 @@ a:hover {
 	text-decoration:none!important 
 }
 
+
 /* mobile in portrait orientation */
+
+
+@media only screen and (min-width: 991px) and (max-width: 1024px) {
+	.header a {
+		color: #0645AD;
+	}
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	img {
@@ -129,6 +138,14 @@ a:hover {
 		display: block;
 
 	}
+	
+	footer {
+		height: 130px;
+	}
+
+	li {
+		font-size: 1rem;
+	}	
 
 	.wrapper {
 		height: 870px;
@@ -140,9 +157,10 @@ a:hover {
 		width: 650px;
 	}
 
-	footer {
-		height: 130px;
+	.header a {
+		color: #0645AD;
 	}
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
@@ -156,6 +174,14 @@ a:hover {
 
 	}
 
+	footer {
+		height: 130px;
+	}	
+
+	li {
+		font-size: 1rem;
+	}		
+
 	.wrapper {
 		height: 870px;
 	}
@@ -163,12 +189,13 @@ a:hover {
 	.display {
 		margin-top: 2.5rem;
 		top: 28rem;
-		width: 550px;
+		width: 540px;
 	}
 
-	footer {
-		height: 130px;
-	}	
+	.header a {
+		color: #0645AD;
+	}
+
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -179,6 +206,11 @@ a:hover {
 	ul {
 		width: 300px;
 	}
+
+	li {
+		font-size: 1rem;
+	}		
+
 
 	img {
 		margin-top: 1rem;
@@ -201,109 +233,57 @@ a:hover {
 		margin-right: 3px;
 	}
 
-
-}
-
-
-/*
-@media only screen and (max-width: 500px) {
-
-	ul {
-		width: 300px;
-	}
-
-	.wrapper {
-		height: 2000px;
-	}
-
-	.display {
-		width: 200px;
-		top: 32rem;
-		margin-left: 3px;
-		margin-right: 3px;
-	}
-}	
-*/
-
-
-
-/*
-
-@media only screen and (min-device-width: 768px){
-	.wrapper {
-		width: 500px;
-	}
-
-	.display {
-		width: 600px;
+	.header a {
+		color: #0645AD;
 	}
 }
 
-*/
-
-
-
-/* mobile with landscape orientation */
-
-/*
-
-@media only screen and (orientation:landscape) {
-	.display {
-		width: 500px;
-	}
-}
-
-@media only screen and (min-device-width: 500px) {
-	.display {
-		width: 580px;
-	}
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-@media only screen and (min-device-width: 1024px) {
-	p {
-		font-size: 1.2rem;
-	}
-
+@media only screen and (min-width: 1024px) and (min-height: 1366px) {
 	h1 {
+		font-size: 5rem;
+	}	
+
+	h2 {
 		font-size: 4rem;
 	}
 
-	h2 {
-		font-size: 3rem;
+	li {
+		font-size: 2rem;
 	}
 
-	li {
+	h6 {
 		font-size: 1.5rem;
 	}
 
-	.title {
-		margin-bottom: 0.5rem;
+	img {
+		top: 10rem;
+
+	}
+
+	footer {
+		height: 112px;
+	}
+
+	footer a {
+		font-size: 1.4rem;
+	}
+
+	.wrapper {
+/*		background-color: blue; */
 	}
 
 	.display {
-		width: 860px;
 		top: 40rem;
+		width: 880px;
+		font-size: 1.5rem;
+	}
+
+	.header a {
+		color: #0645AD;
 	}
 }
 
-*/
+
 
 
 
