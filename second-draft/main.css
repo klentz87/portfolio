@@ -18,6 +18,7 @@ footer {
 }
 
 img {
+	max-width: 420px;
 	border: solid 2px black;
 }
 
@@ -119,14 +120,13 @@ a:hover {
 }
 
 
-/* mobile in portrait orientation */
-
-
 @media only screen and (min-width: 991px) and (max-width: 1024px) {
 	.header a {
 		color: #0645AD;
 	}
 }
+
+
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	img {
@@ -161,7 +161,17 @@ a:hover {
 		color: #0645AD;
 	}
 
+	#projects {
+		top: 20rem;
+	}
+
+	#experience {
+		top: 26rem;
+	}
+
 }
+
+/* mobile landscape orientation */
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 	img {
@@ -196,7 +206,17 @@ a:hover {
 		color: #0645AD;
 	}
 
+	#projects {
+		top: 20rem;
+	}
+
+	#experience {
+		top: 25rem;
+	}
+
 }
+
+/* mobile in portrait orientation */
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 	footer {
@@ -223,12 +243,12 @@ a:hover {
 	}
 
 	.wrapper {
-		height: 1070px;
+		height: 1200px;
 	}
 
 	.display {
 		width: 250px;
-		top: 38rem;
+		top: 41rem;
 		margin-left: 3px;
 		margin-right: 3px;
 	}
@@ -236,7 +256,21 @@ a:hover {
 	.header a {
 		color: #0645AD;
 	}
+
+	#about {
+		top: 33.5rem;
+	}
+
+	#experience {
+		top: 34.2rem;
+	}
+
+	#projects {
+		top: 24rem;
+	}
 }
+
+/* iPad Pro portrait orientation */
 
 @media only screen and (min-width: 1024px) and (min-height: 1366px) {
 	h1 {
@@ -282,6 +316,8 @@ a:hover {
 		color: #0645AD;
 	}
 }
+
+
 
 
 
