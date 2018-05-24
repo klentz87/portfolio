@@ -54,7 +54,7 @@ a:hover {
 
 .wrapper {
 	overflow-x: hidden;
-	height: 620px;
+	height: 650px;
 	white-space: nowrap;
 	margin: 0 auto;
 	padding-bottom: 80px;
@@ -73,7 +73,7 @@ a:hover {
 	white-space: normal;
 	vertical-align: top;
 	position: absolute;
-	top: 23rem;  /* position the top  edge of the element at the middle of the parent */
+	top: 24rem;  /* position the top  edge of the element at the middle of the parent */
     left: 220%; /* position the left edge of the element at the middle of the parent */
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -121,7 +121,7 @@ a:hover {
 
 
 @media only screen and (min-width: 991px) and (max-width: 1024px) {
-	.header a {
+	.header li, .header a {
 		color: #0645AD;
 	}
 }
@@ -157,7 +157,7 @@ a:hover {
 		width: 650px;
 	}
 
-	.header a {
+	.header li, .header a {
 		color: #0645AD;
 	}
 
@@ -202,7 +202,7 @@ a:hover {
 		width: 540px;
 	}
 
-	.header a {
+	.header li, .header a {
 		color: #0645AD;
 	}
 
@@ -253,7 +253,7 @@ a:hover {
 		margin-right: 3px;
 	}
 
-	.header a {
+	.header li, .header a {
 		color: #0645AD;
 	}
 
@@ -312,7 +312,7 @@ a:hover {
 		font-size: 1.5rem;
 	}
 
-	.header a {
+	.header li, .header a {
 		color: #0645AD;
 	}
 }
